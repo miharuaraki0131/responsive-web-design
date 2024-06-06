@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px 30px; /* 余白を追加 */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.form-group {
+    margin: 20px 0; /* 統一された余白 */
+}
+
+.form-control {
+    width: calc(100% - 20px); /* 余白を追加 */
+    padding: 10px;
+    margin: 0 10px; /* 左右に余白を追加 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-radio,
+.input-checkbox {
+    margin-right: 10px;
+}
+
+.input-checkbox-label {
+    display: block;
+    margin-right: 20px; /* 余白を追加 */
+}
+
+.clue {
+    font-style: italic;
+    color: #999;
+}
+
+.submit-button {
+    background-color: #d22c2c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px auto; /* 余白を追加し中央配置 */
+    display: block; /* ボタンをブロック要素に変更 */
+}
+
+.submit-button:hover {
+    background-color: red;
+}
+
+.input-textarea {
+    width: calc(100% - 20px); /* 余白を追加 */
+    height: 100px;
+    padding: 10px;
+    margin: 0 10px; /* 左右に余白を追加 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+p, label:not(.input-checkbox-label) {
+    margin: 0 0 10px 0; /* 上部と下部の余白を統一 */
+}
